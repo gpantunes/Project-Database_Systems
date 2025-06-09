@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import os
 
 # Define the base path for log files and output directory
-log_base_path = "C:/Users/guipm/logs/Set1/4vusers/"
-output_dir = r'C:/Users/guipm/logs/Set1/4vusers/plots/cpu'
+log_base_path = "C:/Users/guipm/logs/Set5.1/"
+output_dir = r'C:/Users/guipm/logs/Set5.1/plots/cpu'
 
 # Create the output directory if it doesn't exist
 os.makedirs(output_dir, exist_ok=True)

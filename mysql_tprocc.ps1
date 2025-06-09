@@ -1,5 +1,5 @@
 # Define log directory (adjust as needed)
-$logDir = "C:\Users\guipm\logs"
+$logDir = "C:\Users\guipm\logs\Set7"
 
 # Get current number of cpu log files
 $existingCpuLogs = Get-ChildItem -Path $logDir -Filter "cpu*.log" -ErrorAction SilentlyContinue
@@ -21,8 +21,8 @@ Write-Output "RUN HAMMERDB TEST"
 Write-Output "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-"
 Write-Output "Starting logging for Test #$testNumber"
 # Start logging CPU and IO inside WSL asynchronously (adjust duration 300s to your test length)
-Start-Process -NoNewWindow -FilePath wsl -ArgumentList "timeout 300 mpstat -P ALL 1 > /mnt/c/Users/guipm/logs/cpu$testNumber.log" 
-Start-Process -NoNewWindow -FilePath wsl -ArgumentList "timeout 300 iostat -dx 1 > /mnt/c/Users/guipm/logs/io$testNumber.log"
+Start-Process -NoNewWindow -FilePath wsl -ArgumentList "timeout 420 mpstat -P ALL 1 > /mnt/c/Users/guipm/logs/Set7/cpu$testNumber.log" 
+Start-Process -NoNewWindow -FilePath wsl -ArgumentList "timeout 420 iostat -dx 1 > /mnt/c/Users/guipm/logs/Set7/io$testNumber.log"
 hammerdbcli auto ./scripts/tcl/mysql/tprocc/mysql_tprocc_run.tcl 
 Write-Output "+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-"
 Write-Output "DROP HAMMERDB SCHEMA"
