@@ -1,0 +1,17 @@
+test:
+warehouses = 40
+vu = 8 + 1 monitor
+partition = false
+time = 2min rampup, 5min duration
+
+
+database: 
+# all default values
+buffer pool = 128MB
+log_file_size = 48MB
+log_buffer_size = 16MB
+lush_log_at_trx_commit = 1
+doublewrite = ON
+file_per_table = ON
+io_capacity = 200
+io_capacity_max = 2000

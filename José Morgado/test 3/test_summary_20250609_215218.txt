@@ -1,0 +1,88 @@
+MariaDB Performance Test Summary
+Started: seg 09 jun 2025 21:52:18 WEST
+Configuration: 5 tests, schema rebuild=false
+=========================================
+Test 1 started at seg 09 jun 2025 21:52:18 WEST
+System state before test 1:
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       3,8Gi       2,5Gi       905Mi       2,4Gi       3,7Gi
+Swap:          2,0Gi       934Mi       1,1Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           763M  6,0M  757M   1% /run
+/dev/nvme0n1p2  468G  364G   81G  82% /
+tmpfs           3,8G  1,1M  3,8G   1% /dev/shm
+tmpfs           5,0M   12K  5,0M   1% /run/lock
+efivarfs        192K  120K   68K  65% /sys/firmware/efi/efivars
+tmpfs           3,8G     0  3,8G   0% /run/qemu
+/dev/nvme0n1p1  511M  6,2M  505M   2% /boot/efi
+tmpfs           763M  172K  763M   1% /run/user/1000
+---
+Test 1: SUCCESS (691s)
+Test 2 started at seg 09 jun 2025 22:04:49 WEST
+System state before test 2:
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       5,9Gi       593Mi       352Mi       1,6Gi       1,5Gi
+Swap:          2,0Gi       1,0Gi       1,0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           763M  6,0M  757M   1% /run
+/dev/nvme0n1p2  468G  368G   77G  83% /
+tmpfs           3,8G  1,1M  3,8G   1% /dev/shm
+tmpfs           5,0M   12K  5,0M   1% /run/lock
+efivarfs        192K  120K   68K  65% /sys/firmware/efi/efivars
+tmpfs           3,8G     0  3,8G   0% /run/qemu
+/dev/nvme0n1p1  511M  6,2M  505M   2% /boot/efi
+tmpfs           763M  168K  763M   1% /run/user/1000
+---
+Test 2: SUCCESS (480s)
+Test 3 started at seg 09 jun 2025 22:13:49 WEST
+System state before test 3:
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       6,1Gi       504Mi       379Mi       1,5Gi       1,3Gi
+Swap:          2,0Gi       1,0Gi       1,0Gi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           763M  6,0M  757M   1% /run
+/dev/nvme0n1p2  468G  368G   77G  83% /
+tmpfs           3,8G  1,1M  3,8G   1% /dev/shm
+tmpfs           5,0M   12K  5,0M   1% /run/lock
+efivarfs        192K  120K   68K  65% /sys/firmware/efi/efivars
+tmpfs           3,8G     0  3,8G   0% /run/qemu
+/dev/nvme0n1p1  511M  6,2M  505M   2% /boot/efi
+tmpfs           763M  168K  763M   1% /run/user/1000
+---
+Test 3: SUCCESS (468s)
+Test 4 started at seg 09 jun 2025 22:22:37 WEST
+System state before test 4:
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       6,3Gi       473Mi       373Mi       1,3Gi       1,1Gi
+Swap:          2,0Gi       1,0Gi       998Mi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           763M  6,0M  757M   1% /run
+/dev/nvme0n1p2  468G  368G   77G  83% /
+tmpfs           3,8G  1,1M  3,8G   1% /dev/shm
+tmpfs           5,0M   12K  5,0M   1% /run/lock
+efivarfs        192K  120K   68K  65% /sys/firmware/efi/efivars
+tmpfs           3,8G     0  3,8G   0% /run/qemu
+/dev/nvme0n1p1  511M  6,2M  505M   2% /boot/efi
+tmpfs           763M  168K  763M   1% /run/user/1000
+---
+Test 4: SUCCESS (473s)
+Test 5 started at seg 09 jun 2025 22:31:30 WEST
+System state before test 5:
+               total        used        free      shared  buff/cache   available
+Mem:           7,4Gi       6,3Gi       473Mi       373Mi       1,4Gi       1,2Gi
+Swap:          2,0Gi       1,0Gi       998Mi
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           763M  6,0M  757M   1% /run
+/dev/nvme0n1p2  468G  368G   77G  83% /
+tmpfs           3,8G  1,1M  3,8G   1% /dev/shm
+tmpfs           5,0M   12K  5,0M   1% /run/lock
+efivarfs        192K  120K   68K  65% /sys/firmware/efi/efivars
+tmpfs           3,8G     0  3,8G   0% /run/qemu
+/dev/nvme0n1p1  511M  6,2M  505M   2% /boot/efi
+tmpfs           763M  168K  763M   1% /run/user/1000
+---
+Test 5: SUCCESS (466s)
+
+=========================================
+TEST SUITE COMPLETED at seg 09 jun 2025 22:39:16 WEST
+Total tests: 5
